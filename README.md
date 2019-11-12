@@ -3,12 +3,12 @@
 This code applies facial makeup on images of celebrities. It fetches images stored in google drive using Google API and does processing on it to give the final output. Following are the steps to replicate it.
 
 1. Setting up environment <br />
-* Make a conda virtual environment first and connect it to the attached jupyter notebook. Follow [this](https://janakiev.com/blog/jupyter-virtual-envs/) link for more help <br />
-* The submitted program uses dlib library. ‘cmake’ is a prerequisite to install dlib <br />
-* Install cmake first: `conda install -c anaconda cmake` <br />
-* Install dlib using: `conda install -c menpo dlib` <br />
-* Then install all the other requirements given in the requirements file attached `pip -r install --upgrade requirements` <br />
-* When the jupyter notebook is opened, connect it to the new environment that was just made <br />
+  * Make a conda virtual environment first and connect it to the attached jupyter notebook. Follow [this](https://janakiev.com/blog/jupyter-virtual-envs/) link for more help <br />
+  * The submitted program uses dlib library. ‘cmake’ is a prerequisite to install dlib <br />
+  * Install cmake first: `conda install -c anaconda cmake` <br />
+  * Install dlib using: `conda install -c menpo dlib` <br />
+  * Then install all the other requirements given in the requirements file attached `pip -r install --upgrade requirements` <br />
+  * When the jupyter notebook is opened, connect it to the new environment that was just made <br />
 
 2. Use of Google API <br />
 **NOTE:** For security reasons I have removed my credentials.json file. You will have to refer the guide on Google.
