@@ -22,7 +22,7 @@ This code applies facial makeup on images of celebrities. It fetches images stor
 * Download the necessary files mentioned in the link above in order to detect landmarks points on face
 
 ### Applying makeup
-* Once you complete above steps, the rest should follow as per the code written.
+* Once you complete above steps, the rest should follow as per the code written in makeup.ipynb
 * Following is the transformation you would get to see in images <br />
 **Input Image**: <br />
 ![input image](benedict.jpg)
